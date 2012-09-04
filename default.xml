@@ -12,6 +12,9 @@
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="mp"
+           fetch="https://github.com/TheMuppets/" />
+
   <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
 
@@ -37,9 +40,6 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
@@ -320,11 +320,25 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="system_vold" remote="slim" revision="jb" />
 
+<!-- New Additions for slim -->
+  <project path="vendor/slim" name="vendor_slim" remote="slim" revision="jb" />
   <project path="android" name="platform_manifest" remote="slim" revision="jb" />
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="slim" revision="jb" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="slim" revision="jb" />
+  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="slim" revision="jb" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="slim" revision="jb" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="slim" revision="jb" />
+  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="slim" revision="jb" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="slim" revision="jb" />
+  <project path="device/samsung/galaxysmtd" name="device_samsung_galaxysmtd" remote="slim" revision="jb" />
+  <project path="device/samsung/vibrantmtd" name="device_samsung_vibrantmtd" remote="slim" revision="jb" />
+
   <!-- New Additions from CM and other teams -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="mp" revision="jellybean" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="mp" revision="jellybean" />
 
 </manifest>
