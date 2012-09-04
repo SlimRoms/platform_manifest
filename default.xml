@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
            fetch="https://github.com/AOKP"
@@ -27,7 +26,7 @@
   <project path="bionic" name="android_bionic" remote="slim" revision="jb" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="slim" revision="jb" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="jb" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="android_dalvik" remote="slim" revision="jb" />
   <project path="development" name="platform/development" />
