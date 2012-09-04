@@ -5,18 +5,18 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/AOKP"
+           fetch="git://github.com/AOKP"
            review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="git://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
   <remote  name="mp"
-           fetch="https://github.com/TheMuppets/" />
+           fetch="git://github.com/TheMuppets/" />
 
   <remote  name="slim"
-           fetch="https://github.com/SlimRoms/" />
+           fetch="git://github.com/SlimRoms/" />
 
   <default revision="refs/tags/android-4.1.1_r4"
            remote="aosp"
