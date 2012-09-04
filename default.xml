@@ -322,7 +322,7 @@
 
 <!-- New Additions for slim -->
   <project path="vendor/slim" name="vendor_slim" remote="slim" revision="jb" />
-  <project path="android" name="platform_manifest" remote="slim" revision="jb" />
+  <project path="platform_manifest" name="platform_manifest" remote="slim" revision="jb" />
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="slim" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="slim" revision="jb" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="slim" revision="jb" />
