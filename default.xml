@@ -326,6 +326,7 @@
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="slim" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="slim" revision="jb" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="slim" revision="jb" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="slim" revision="jb" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="slim" revision="jb" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="slim" revision="jb" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="slim" revision="jb" />
