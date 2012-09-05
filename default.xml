@@ -227,7 +227,7 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="platform_libcore" remote="slim" revision="jb" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
