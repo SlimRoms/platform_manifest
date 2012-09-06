@@ -26,12 +26,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="slim" revision="jb" />
+  <project path="bionic" name="android_bionic" remote="cm" revision="jellybean" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="jb" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="android_dalvik" remote="slim" revision="jb" />
+  <project path="dalvik" name="android_dalvik" remote="cm" revision="jellybean" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
@@ -61,7 +61,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="slim" revision="jb" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="jellybean" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -119,7 +119,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" revision="jb" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="jellybean" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
@@ -189,10 +189,10 @@
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="external_yaffs2" remote="slim" revision="jb" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="jellybean" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="slim" revision="jb" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="jellybean" />
   <project path="frameworks/base" name="frameworks_base" remote="slim" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -201,7 +201,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="slim" revision="jb" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="jellybean" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -212,22 +212,22 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="jb" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="jellybean" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="jb" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="slim" revision="jb" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="slim" revision="jb" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="slim" revision="jb" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" revision="jb" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="jb" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="jb" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="jellybean" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="jellybean" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="jellybean" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="slim" revision="jb" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="slim" revision="jb" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="slim" revision="jb" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="jb" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="jb" />
-  <project path="libcore" name="platform_libcore" remote="slim" revision="jb" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="jellybean" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="jellybean" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -235,10 +235,10 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="jellybean" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="jb" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -251,9 +251,9 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="jb" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="jellybean" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="slim" revision="jb" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="cm" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -274,9 +274,9 @@
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="jellybean" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="jellybean" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
@@ -310,13 +310,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="slim" revision="jb" />
-  <project path="system/core" name="android_system_core" remote="slim" revision="jb" />
-  <project path="system/extras" name="android_system_extras" remote="slim" revision="jb" />
-  <project path="system/media" name="android_system_media" remote="slim" revision="jb" />
-  <project path="system/netd" name="android_system_netd" remote="slim" revision="jb" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="jellybean" />
+  <project path="system/core" name="android_system_core" remote="cm" revision="jellybean" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="jellybean" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="jellybean" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="jellybean" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="system_vold" remote="slim" revision="jb" />
+  <project path="system/vold" name="android_system_vold" remote="cm" revision="jellybean" />
 
 <!-- New Additions for slim -->
   <project path="vendor/slim" name="vendor_slim" remote="slim" revision="jb" />
