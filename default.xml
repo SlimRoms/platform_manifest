@@ -232,7 +232,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="cm" revision="jellybean" />
@@ -248,7 +248,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="cm" revision="jellybean" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" revision="jellybean" />
@@ -324,11 +324,11 @@
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="slim" revision="jb" />
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="slim" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="slim" revision="jb" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="slim" revision="jb" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="slim" revision="jb" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="slim" revision="jb" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="slim" revision="jb" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="slim" revision="jb" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cm" revision="jellybean" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cm" revision="jellybean" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cm" revision="jellybean" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cm" revision="jellybean" />
+  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cm" revision="jellybean" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="slim" revision="jb" />
   <project path="device/samsung/galaxysmtd" name="device_samsung_galaxysmtd" remote="slim" revision="jb" />
   <project path="device/samsung/vibrantmtd" name="device_samsung_vibrantmtd" remote="slim" revision="jb" />
