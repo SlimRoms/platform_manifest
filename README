@@ -21,8 +21,8 @@ $ repo init -u https://github.com/SlimRoms/platform_manifest.git -b jb
 
 Create a local manifest file with the following lines in your .repo folder
 
-cd .repo/
-gedit
+$ cd .repo/
+$ gedit local_manifest.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
@@ -33,9 +33,7 @@ gedit
 
   </manifest>
 
-save file as local_manifest.xml
-
-Now sync the repositories
+Save this, now you are ready to sync the repositories
 
 $ repo sync
 
