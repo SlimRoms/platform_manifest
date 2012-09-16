@@ -1,2 +1,2 @@
-$ repo init -u git://github.com/SlimRoms/platform_manifest.git -b jb
+$ repo init -u https://github.com/SlimRoms/platform_manifest -b jb
 $ repo sync
