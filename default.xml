@@ -307,7 +307,7 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="slim" revision="jb" />
+  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="jb" />
 <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb" />
   <project path="device/samsung/crespo" name="SlimRoms/device_samsung_crespo" remote="github" revision="jb" />
