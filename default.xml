@@ -12,7 +12,7 @@
            sync-j="4" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="jb" >
-    <copyfile src="core/root.mk" djwelest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="jb" />
