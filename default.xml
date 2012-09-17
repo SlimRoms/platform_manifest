@@ -313,12 +313,12 @@
   <project path="device/samsung/crespo" name="SlimRoms/device_samsung_crespo" remote="github" revision="jb" />
   <project path="device/samsung/aries-common" name="SlimRoms/device_samsung_aries-common" remote="github" revision="jb" />
   <project path="device/samsung/galaxys2-common" name="SlimRoms/device_samsung_galaxys2-common" remote="github" revision="jb" />
-  <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" remote="github" revision="jellybean" />
-  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="jellybean" />
-  <project path="device/samsung/d2att" name="CyanogenMod/android_device_samsung_d2att" remote="github" revision="jellybean" />
-  <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" remote="github" revision="jellybean" />
-  <project path="device/samsung/i9100" name="CyanogenMod/android_device_samsung_i9100" remote="github" revision="jellybean" />
-  <project path="device/samsung/i9300" name="CyanogenMod/android_device_samsung_i9300" remote="github" revision="jellybean" />
+  <project path="device/samsung/d2-common" name="SlimRoms/device_samsung_d2-common" remote="github" revision="jb" />
+  <project path="device/samsung/msm8960-common" name="SlimRoms/device_samsung_msm8960-common" remote="github" revision="jb" />
+  <project path="device/samsung/d2att" name="SlimRoms/device_samsung_d2att" remote="github" revision="jb" />
+  <project path="device/samsung/d2vzw" name="SlimRoms/device_samsung_d2vzw" remote="github" revision="jb" />
+  <project path="device/samsung/i9100" name="SlimRoms/device_samsung_i9100" remote="github" revision="jb" />
+  <project path="device/samsung/i9300" name="SlimRoms/device_samsung_i9300" remote="github" revision="jb" />
   <project path="device/samsung/galaxysmtd" name="SlimRoms/device_samsung_galaxysmtd" remote="github" revision="jb" />
   <project path="device/samsung/vibrantmtd" name="SlimRoms/device_samsung_vibrantmtd" remote="github" revision="jb" />
   <project path="device/samsung/toroplus" name="SlimRoms/device_samsung_toroplus" remote="github" revision="jb" />
