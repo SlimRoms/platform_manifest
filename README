@@ -18,25 +18,3 @@ $ cd android/slimbean/
 Initialize the manifest
 
 $ repo init -u https://github.com/SlimRoms/platform_manifest.git -b jb
-
-Create a local manifest file with the following lines in your .repo folder
-
-$ cd .repo/
-$ gedit local_manifest.xml
-
-<?xml version="1.0" encoding="UTF-8"?>
-  <manifest>
-
-    <project name="Mattix724/android_device_samsung_d710" path="device/samsung/d710" revision="jellybean" remote="github" />
-    <project name="Mattix724/android_hardware_samsung" path="hardware/samsung" revision="jellybean" remote="github" />
-    <project name="Mattix724/proprietary_vendor_samsung" path="vendor/samsung/" revision="jellybean" remote="github" />
-
-  </manifest>
-
-Save this, now you are ready to sync the repositories
-
-$ repo sync
-
-This will take some time. Let it run, go watch a movie, hang out with friends, drink a few beers...
-
-I will add more to this soon...
