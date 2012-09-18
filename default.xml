@@ -321,6 +321,7 @@
   <project path="device/samsung/i9300" name="SlimRoms/device_samsung_i9300" remote="github" revision="jb" />
   <project path="device/samsung/galaxysmtd" name="SlimRoms/device_samsung_galaxysmtd" remote="github" revision="jb" />
   <project path="device/samsung/vibrantmtd" name="SlimRoms/device_samsung_vibrantmtd" remote="github" revision="jb" />
+  <project path="device/htc/endeavoru" name="CyanogenMod/android_device_htc_endeavoru" remote="github" revision="jellybean" />
   <project path="device/samsung/toroplus" name="SlimRoms/device_samsung_toroplus" remote="github" revision="jb" />
   <!-- New Additions from CM and other teams -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
@@ -331,5 +332,6 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="jellybean" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="jellybean" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="jellybean" />
 
 </manifest>
