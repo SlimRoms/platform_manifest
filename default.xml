@@ -321,7 +321,7 @@
   <project path="device/samsung/i9300" name="SlimRoms/device_samsung_i9300" remote="github" revision="jb" />
   <project path="device/samsung/galaxysmtd" name="SlimRoms/device_samsung_galaxysmtd" remote="github" revision="jb" />
   <project path="device/samsung/vibrantmtd" name="SlimRoms/device_samsung_vibrantmtd" remote="github" revision="jb" />
-  <project path="device/htc/endeavoru" name="CyanogenMod/android_device_htc_endeavoru" remote="github" revision="jellybean" />
+  <project path="device/htc/endeavoru" name="SlimRoms/device_htc_endeavoru" remote="github" revision="jb" />
   <project path="device/samsung/toroplus" name="SlimRoms/device_samsung_toroplus" remote="github" revision="jb" />
   <!-- New Additions from CM and other teams -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
