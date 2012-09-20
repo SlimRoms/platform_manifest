@@ -318,7 +318,7 @@
   <project path="device/samsung/d2att" name="SlimRoms/device_samsung_d2att" remote="github" revision="jellybean" />
   <project path="device/samsung/d2vzw" name="SlimRoms/device_samsung_d2vzw" remote="github" revision="jellybean" />
   <project path="device/samsung/i9100" name="SlimRoms/device_samsung_i9100" remote="github" revision="jellybean" />
-  <project path="device/samsung/i9300" name="SlimRoms/device_samsung_i9300" remote="github" revision="jellybean" />
+  <project path="device/samsung/i9300" name="SlimRoms/device_samsung_i9300" remote="github" revision="jb" />
   <project path="device/samsung/galaxysmtd" name="SlimRoms/device_samsung_galaxysmtd" remote="github" revision="jellybean" />
   <project path="device/samsung/vibrantmtd" name="SlimRoms/device_samsung_vibrantmtd" remote="github" revision="jellybean" />
   <project path="device/htc/endeavoru" name="SlimRoms/device_htc_endeavoru" remote="github" revision="jb" />
