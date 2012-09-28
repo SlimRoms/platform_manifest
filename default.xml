@@ -323,6 +323,10 @@
   <project path="device/samsung/vibrantmtd" name="SlimRoms/device_samsung_vibrantmtd" remote="github" revision="jellybean" />
   <project path="device/htc/endeavoru" name="SlimRoms/device_htc_endeavoru" remote="github" revision="jb" />
   <project path="device/samsung/toroplus" name="SlimRoms/device_samsung_toroplus" remote="github" revision="jb" />
+  <project path="device/samsung/qcom-common" name="SlimRoms/device_samsung_qcom-common" remote="github" revision="jellybean" />
+  <project path="device/samsung/msm8660-common" name="SlimRoms/device_samsung_msm8660-common" remote="github" revision="jellybean" />
+  <project path="device/samsung/quincyatt" name="SlimRoms/device_samsung_quincyatt" remote="github" revision="jellybean" />
+  <project path="device/samsung/quincy-common" name="SlimRoms/device_samsung_quincy-common" remote="github" revision="jellybean" />
   <!-- New Additions from CM and other teams -->
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="jellybean" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="jellybean" />
