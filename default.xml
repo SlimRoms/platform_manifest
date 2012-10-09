@@ -22,7 +22,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jellybean" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" />
+  <project path="device/asus/grouper" name="SlimRoms/device_asus_grouper remote="github" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
