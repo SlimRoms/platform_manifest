@@ -154,7 +154,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="jellybean" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
@@ -174,7 +174,7 @@
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jellybean" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jellybean" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jellybean" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jellybean" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb" />
