@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="review.slimroms.net" />
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/" />
+           fetch="git://github.com/"
+           review="review.slimroms.net" />
 
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
