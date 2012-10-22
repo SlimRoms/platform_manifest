@@ -5,8 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-           fetch="git://github.com/"
-           review="review.slimroms.net" />
+           fetch="git://github.com/" />
 
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
