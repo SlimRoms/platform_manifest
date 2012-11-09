@@ -219,7 +219,7 @@
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="github" revision="jb" />
   <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="jb" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
