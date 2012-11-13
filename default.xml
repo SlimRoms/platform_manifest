@@ -223,7 +223,7 @@
   <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="jb" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
