@@ -12,6 +12,7 @@
            remote="aosp"
            sync-c="true"
            sync-j="4" />
+
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb" />
 
 </manifest>
