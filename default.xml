@@ -10,6 +10,7 @@
 
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="jb-exp" >
