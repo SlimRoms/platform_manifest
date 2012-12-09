@@ -189,7 +189,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.2" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
