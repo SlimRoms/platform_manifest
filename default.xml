@@ -230,7 +230,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware/qcom/power" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="platform/hardware/ril" />
