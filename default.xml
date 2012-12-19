@@ -190,7 +190,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jb4.2" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jb4.2" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.2" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.2" />
