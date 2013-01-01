@@ -228,7 +228,7 @@
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
