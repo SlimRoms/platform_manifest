@@ -344,7 +344,7 @@
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.2" />
 
   <!-- Slim File Manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/pacakges_apps_FileManager" remote="github" revision="jb4.2" />
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_FileManager" remote="github" revision="jb4.2" />
 
   <!-- New Additions theme engine CM -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.1" />
