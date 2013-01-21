@@ -20,7 +20,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.2" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jb4.2" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="SlimRoms/device_common" remote="github" revision="jb4.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
