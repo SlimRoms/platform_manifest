@@ -232,7 +232,7 @@
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="jb4.2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="jb4.2" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="jb4.2" />
