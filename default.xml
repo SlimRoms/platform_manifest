@@ -262,7 +262,7 @@
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="jb4.2" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="jb-mr1-release" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="github" revision="jb4.2" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
