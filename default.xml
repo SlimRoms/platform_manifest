@@ -346,6 +346,10 @@
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="jb4.2" />
 
+  <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.1" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.1" />
+
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.2" />
 
