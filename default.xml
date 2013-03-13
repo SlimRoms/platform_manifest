@@ -341,10 +341,10 @@
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.2" />
 
   <!-- Slim File Manager -->
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_FileManager" remote="github" revision="jb4.2" />
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="jb4.2" />
 
   <!-- Slim OTA -->
-  <project path="packages/apps/SlimOTA" name="SlimRoms/packages_apps_SlimOTA" remote="github" revision="jb4.2" />
+  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="jb4.2" />
 
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.2" />
