@@ -167,7 +167,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="jb4.2" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
@@ -276,7 +276,7 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="jb4.2" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="SlimRoms/packages_apps_VoiceDialer" remote="github" revision="jb4.2" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="jb4.2" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
