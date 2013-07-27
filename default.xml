@@ -50,6 +50,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="jb4.3" />
   <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
@@ -134,10 +135,12 @@
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="jb-mr1.1-release" />
+  <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="jb-mr1.1-release" />
   <project path="external/mksh" name="platform/external/mksh" />
+  <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
   <project path="external/mtpd" name="platform/external/mtpd" />
@@ -167,6 +170,7 @@
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
+  <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="jb4.3" />
@@ -183,6 +187,7 @@
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
@@ -202,8 +207,6 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.3" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="jb-mr1.1-release" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="jb-mr1.1-release" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
@@ -220,6 +223,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="jb4.3" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="jb4.3" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -228,7 +232,8 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="gdk" name="platform/gdk" revision="jb-mr1.1-release" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="jb4.3" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jb4.3" />
@@ -263,7 +268,9 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb4.3" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jb4.3" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="jb4.3" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -360,8 +367,16 @@
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="jb4.3" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.3" />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
-  <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="jb4.3" />
 
