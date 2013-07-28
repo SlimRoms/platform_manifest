@@ -207,7 +207,7 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.3" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
