@@ -223,7 +223,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
+  <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="jb4.3" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="jb4.3" />
   <project path="frameworks/opt/vcard" name="SlimRoms/android_frameworks_opt_vcard" remote="github" revision="jb4.3" />
   <project path="frameworks/rs" name="SlimRoms/frameworks_rs" remote="github" revision="jb4.3" groups="pdk" />
