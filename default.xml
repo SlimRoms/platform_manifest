@@ -412,4 +412,7 @@
     <!--CyanogenMod DSPManager -->
    <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
 
+    <!--CyanogenMod BluetoothEX -->
+   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-10.2" />
+
 </manifest>
