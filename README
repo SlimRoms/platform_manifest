@@ -1,2 +1,0 @@
-$ repo init -u git://github.com/SlimRoms/platform_manifest.git -b jb4.3
-$ repo sync
