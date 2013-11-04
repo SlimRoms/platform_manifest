@@ -449,4 +449,7 @@
   <!--CyanogenMod DSPManager -->
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
 
+  <!--CyanogenMod Power Hal -->
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-10.2" />
+
 </manifest>
