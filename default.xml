@@ -445,12 +445,12 @@
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
 
   <!--CyanogenMod SamsungServiceMode -->
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-10.2" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
   <!--CyanogenMod DSPManager -->
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
 
   <!--CyanogenMod Power Hal -->
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-10.2" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
 
 </manifest>
