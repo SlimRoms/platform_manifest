@@ -350,7 +350,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" remote="github" revision="kk4.4" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -435,7 +435,7 @@
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
+  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
 
   <!-- DashClock widget -->
