@@ -6,7 +6,7 @@
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="https://review.slimroms.net:8443/"/>
+           review="https://gerrit.slimroms.net/"/>
 
   <default revision="refs/tags/android-4.4.1_r1"
            remote="aosp"
