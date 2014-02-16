@@ -20,7 +20,6 @@ Then sync up with this command:
 
 To build the full sdk for linux:
 
-	repo sync
 	cd ~/SlimKatSdk
 	. build/envsetup.sh
 	lunch sdk-eng
@@ -29,7 +28,6 @@ To build the full sdk for linux:
 
 To build the full sdk for windows:
 
-	repo sync
 	cd ~/SlimKatSdk
 	. build/envsetup.sh
 	lunch sdk-eng
