@@ -245,6 +245,7 @@
   <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="kk4.4-caf" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
   <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
