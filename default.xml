@@ -415,7 +415,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="kk4.4-caf" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="kk4.4" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="kk4.4" />
