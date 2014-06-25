@@ -290,7 +290,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
-  <project path="hardware/samsung_slsi/exynos5" name="SlimRoms_hardware_samsung_slsi_exynos5" remote="github" revision="kk4.4" />
+  <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="kk4.4" />
