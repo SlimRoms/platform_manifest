@@ -444,6 +444,23 @@
     <!-- Vendors -->
    <project name="DonkeyCoyote/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="android-4.4" />
    <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
+   
+   <!-- Devices -->
+     <project name="SlimRoms/device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/device_qcom_common" path="device/qcom/common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" revision="kk4.4" />
+  <project name="SlimRoms/hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="github" revision="kk4.4" />
+  <project name="CyanogenMod/android_device_htc_s4-common" path="device/htc/s4-common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="cm-11.0" />
+  <project name="SLinaro/device_htc_evita" path="device/htc/evita" remote="github" revision="kk4.4" />
+  
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="SlimRoms/packages_apps_DSPManager" remote="github" revision="kk4.4" />
