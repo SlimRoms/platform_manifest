@@ -6,7 +6,7 @@ Getting Started
 ---------------
 
 To get started with SlimKat, you'll need to get familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+[Git and Repo](https://source.android.com/source/using-repo.html).
 
 Please take note that we have two main line branches depending on
 which hardware base your phone is working.
