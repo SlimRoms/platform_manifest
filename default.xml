@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="git://github.com/"
+           review="https://gerrit.slimroms.net/"/>
+
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
-  <project path="build" name="platform/build" groups="pdk" >
+
+  <project path="build" name="SlimRoms/android_build" remote="github" revision="jp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="development" name="platform/development" />
