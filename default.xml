@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="jp5.0" >
+  <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
