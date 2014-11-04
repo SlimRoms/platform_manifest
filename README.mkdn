@@ -12,7 +12,7 @@ Please take note that we have two main line branches depending on
 which hardware base your phone is working.
 
 If you have a qcom powered device which needs CodeAuroraForum (CAF)
-trees please us the jp5.0-caf branch which pulls for the effected packages
+trees please us the lp5.0-caf branch which pulls for the effected packages
 the correct caf version for you.
 
 To initialize your local repository using the SlimLP trees, use this command:
@@ -20,12 +20,12 @@ To initialize your local repository using the SlimLP trees, use this command:
 
 for google, exynos and non qcom devices:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b jp5.0
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0
 
 
 for qcom devices which are using CodeAuroraForum trees:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b jp5.0-caf
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
 
 
 
