@@ -179,7 +179,7 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
+  <project path="external/libsepol" name="SlimRoms/android_external_libsepol" remote="github" revision="lp5.0" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
