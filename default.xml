@@ -538,7 +538,7 @@
   <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="lp5.0" />
 
   <!-- CyanogenMod ffmpeg -->
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.0" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.0" />
+  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.0-caf" />
+  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.0-caf" />
 
 </manifest>
