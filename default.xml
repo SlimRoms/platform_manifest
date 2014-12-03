@@ -7,7 +7,7 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
-  <default revision="refs/tags/android-5.0.0_r7"
+  <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -359,8 +359,8 @@
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="lp5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="lp5.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
+  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="lp5.0" />
+  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" remote="github" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" remote="github" revision="lp5.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
