@@ -47,6 +47,7 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="lp5.0" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
+  <project path="external/android-visualizer" name="SlimRoms/android_external_android-visualizer" remote="github" revision="lp5.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
@@ -350,6 +351,7 @@
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="lp5.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="lp5.0" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="lp5.0" />
