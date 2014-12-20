@@ -307,7 +307,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
-  <project path="frameworks/wilhelm" name="SlimRoms/frameworks_wilhelm" remote="github" branch="lp5.0-caf" />
+  <project path="frameworks/wilhelm" name="SlimRoms/frameworks_wilhelm" remote="github" revision="lp5.0-caf" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="lp5.0-caf" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="lp5.0" />
