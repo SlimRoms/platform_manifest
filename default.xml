@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="lp5.0" >
+  <project path="build" name="AnthemRoms/android_build" remote="github" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -497,10 +497,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-<project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="lp5.0" />
+<project path="platform_manifest" name="AnthemRoms/platform_manifest" remote="github" revision="lp5.0" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="lp5.0" />
+  <project path="vendor/slim" name="AnthemRoms/vendor_slim" remote="github" revision="lp5.0" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="lp5.0" />

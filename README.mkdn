@@ -1,4 +1,5 @@
-Welcome to SlimRoms
+Welcome to AnthemRoms
+Built from SlimLP
 ===================
 
 
@@ -20,18 +21,18 @@ To initialize your local repository using the SlimLP trees, use this command:
 
 for google, exynos and non qcom devices:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0
+	repo init -u git://github.com/AnthemRoms/platform_manifest.git -b lp5.0
 
 
 for qcom devices which are using CodeAuroraForum trees:
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
+	repo init -u git://github.com/AnthemRoms/platform_manifest.git -b lp5.0-caf
 
 
 
 Then sync up with this command:
 
-	repo sync
+	repo sync -c
 
 
 
