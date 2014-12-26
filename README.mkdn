@@ -26,7 +26,7 @@ for google, exynos and non qcom devices:
 
 for qcom devices which are using CodeAuroraForum trees:
 
-	repo init -u git://github.com/AnthemRoms/platform_manifest.git -b lp5.0-caf
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
 
 
 
