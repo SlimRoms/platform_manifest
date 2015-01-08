@@ -269,7 +269,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="lp5.0" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="lp5.0" />
+  <project path="frameworks/base" name="AnthemRoms/frameworks_base" remote="github" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -385,7 +385,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="AnthemRoms/packages_apps_Settings" remote="github" revision="lp5.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -475,7 +475,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="lp5.0" />
+  <project path="system/core" name="AnthemRoms/android_system_core" remote="github" revision="lp5.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -501,7 +501,7 @@
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="AnthemRoms/vendor_slim" remote="github" revision="lp5.0" />
-
+  
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="lp5.0" />
 
