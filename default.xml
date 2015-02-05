@@ -19,8 +19,7 @@
            sync-c="true"
            sync-f="true"
            sync-j="8" />
-           
-           
+          
   <project path="build" name="android_build" remote="traverse" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -468,7 +467,7 @@
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+  <!--<project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" /> -->
 
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="kk4.4" />
@@ -490,4 +489,7 @@
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="kk4.4" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="kk4.4" />
 
+ <!-- SaberMod toolchain -->
+<project name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="traverse" revision="master" />
+<project name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="traverse" revision="master"/>
 </manifest>
