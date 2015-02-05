@@ -19,9 +19,12 @@
            sync-c="true"
            sync-f="true"
            sync-j="8" />
+           
+           
   <project path="build" name="android_build" remote="traverse" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
