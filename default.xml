@@ -20,7 +20,7 @@
            sync-f="true"
            sync-j="8" />
           
-  <project path="build" name="android_build" remote="traverse" revision="kk4.4" >
+  <project path="build" name="android_build" remote="traverse" revision="Impress4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -446,7 +446,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="traverse" revision="kk4.4" />
+  <project path="platform_manifest" name="platform_manifest" remote="traverse" revision="Impress4.4" />
 
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="vendor_impress" remote="traverse" revision="kk4.4" />
