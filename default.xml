@@ -8,11 +8,18 @@
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
 
+  <remote  name="traverse"
+           fetch="https://github.com/ImpressROM/" />
+
+ <remote name="ln"
+           fetch="git://android.git.linaro.org/" />
+
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
-           sync-j="4" />
-
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="kk4.4" >
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
+  <project path="build" name="android_build" remote="traverse" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -60,7 +67,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="platform/external/chromium" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="SlimRoms/android_external_chromium_org" remote="github" revision="kk4.4" />
@@ -102,8 +109,8 @@
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/elfutils" name="platform/external/elfutils" remote="ln" revision="linaro_android_4.4.4" />
+  <project path="external/embunit" name="platform/external/embunit" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
@@ -131,7 +138,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="platform/external/iputils" />
+  <project path="external/iputils" name="platform/external/iputils" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -168,9 +175,9 @@
   <project path="external/libxml2" name="SlimRoms/android_external_libxml2" remote="github" revision="kk4.4" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="kk4.4" />
+  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -194,7 +201,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/openssl" name="SlimRoms/android_external_openssl" remote="github" revision="kk4.4" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/pixman" name="platform/external/pixman" />
@@ -214,24 +221,24 @@
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="kk4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="SlimRoms/android_external_srec" remote="github" revision="kk4.4" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="kk4.4" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="platform/external/v8" remote="ln" revision="linaro_android_4.4.4" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
@@ -245,7 +252,7 @@
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="ln" revision="linaro_android_4.4.4" />
   <project path="frameworks/ex" name="SlimRoms/frameworks_ex" remote="github" revision="kk4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -259,7 +266,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" remote="ln" revision="linaro_android_4.4.4" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="SlimRoms/frameworks_opt_timezonepicker" remote="github" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="kk4.4" />
@@ -270,7 +277,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4.4" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="kk4.4" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" remote="github" revision="kk4.4" />
@@ -437,10 +444,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="kk4.4" />
+  <project path="platform_manifest" name="platform_manifest" remote="traverse" revision="kk4.4" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
+  <project path="vendor/slim" name="vendor_impress" remote="traverse" revision="kk4.4" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
