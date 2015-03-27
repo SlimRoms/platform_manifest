@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7afa4931_be1cd96b",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2015-03-27T22:53:03Z",
+      "side": 1,
+      "message": "We can track straight from aosp",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 3
+      },
+      "revId": "08123b0a908f33b0bd6f5f4a90f43648c293fca7",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7afa4931_9e191d7c",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1000016
+      },
+      "writtenOn": "2015-03-27T22:53:03Z",
+      "side": 1,
+      "message": "We can track straight from aosp",
+      "revId": "08123b0a908f33b0bd6f5f4a90f43648c293fca7",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
