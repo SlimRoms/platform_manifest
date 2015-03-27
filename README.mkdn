@@ -18,14 +18,7 @@ the correct caf version for you.
 To initialize your local repository using the SlimLP trees, use this command:
 
 
-for google, exynos and non qcom devices:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0
-
-
-for qcom devices which are using CodeAuroraForum trees:
-
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.0-caf
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1
 
 
 
@@ -65,4 +58,4 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [SlimRoms Code Review](http://gerrit.slimroms.net)
+To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.eu)
