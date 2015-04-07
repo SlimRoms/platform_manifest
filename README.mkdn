@@ -18,7 +18,7 @@ the correct caf version for you.
 To initialize your local repository using the SlimLP trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1staging
 
 
 
