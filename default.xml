@@ -348,7 +348,6 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8974" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="lp5.1" />
-  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8226" name="SlimRoms/hardware_qcom_display" remote="github" revision="lp5.1-caf-8226" />
