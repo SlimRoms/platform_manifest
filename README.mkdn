@@ -42,6 +42,15 @@ You can send patches by using these commands:
     cd <workspace>
     repo upload SlimRoms/<project>
 
+You can also use Plain Git upload
+```bash
+  $ cd <project>
+  $ git add -A
+  $ git commit -a
+  $ git push ssh://<username>@review.slimroms.eu:29418/SlimRoms/<project> HEAD:refs/for/<branch>
+```
+
+
 Commit your patches in a single commit.
 
 Squash multiple commit using this command:
