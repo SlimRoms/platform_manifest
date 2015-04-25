@@ -516,7 +516,7 @@
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.1" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="lp5.1" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.1" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="lp5.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
