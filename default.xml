@@ -339,7 +339,7 @@
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="lp5.1" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1" />
+  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/audio-caf/apq8084" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8226" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8226" />
   <project path="hardware/qcom/audio-caf/msm8610" name="SlimRoms/hardware_qcom_audio" remote="github" revision="lp5.1-caf-8610" />
@@ -360,7 +360,7 @@
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="lp5.1" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.1" />
+  <project path="hardware/qcom/media/default" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.1" />
   <project path="hardware/qcom/media-caf/apq8084" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.1-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8226" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.1-caf-8226" />
   <project path="hardware/qcom/media-caf/msm8610" name="SlimRoms/hardware_qcom_media" remote="github" revision="lp5.1-caf-8610" />
