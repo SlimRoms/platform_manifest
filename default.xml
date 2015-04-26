@@ -9,6 +9,7 @@
 
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="lp5.1" >
