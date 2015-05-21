@@ -415,7 +415,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="SlimRoms/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Phone" name="SlimRoms/packages_apps_Phone" remote="github" revision="lp5.1" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
