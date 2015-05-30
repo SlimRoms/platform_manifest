@@ -559,6 +559,10 @@
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="lp5.1" />
 
+  <!-- htop -->
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.1" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.1" />
+
   <!-- qrngd -->
   <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="lp5.1" />
 
