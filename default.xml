@@ -515,11 +515,11 @@
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="lp5.1" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="lp5.1" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="lp5.1" />
-  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="lp5.1" />
   <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="lp5.1" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="lp5.1" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="lp5.1" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="lp5.1" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="lp5.1" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
