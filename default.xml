@@ -7,7 +7,7 @@
            fetch="git://github.com/"
            review="https://review.slimroms.eu/"/>
 
-  <default revision="refs/tags/android-5.1.1_r10"
+  <default revision="refs/tags/android-5.1.1_r16"
            remote="aosp"
            sync-j="4" />
 
