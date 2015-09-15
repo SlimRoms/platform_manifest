@@ -337,7 +337,7 @@
   <project path="hardware/intel/img/libdrm" name="SlimRoms/hardware_intel_img_libdrm" remote="github" revision="lp5.1" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" remote="github" revision="lp5.1" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/invensense" name="SlimRoms/hardware_invensense" groups="invensense" revision="lp5.1" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="lp5.1" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="lp5.1" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
