@@ -18,7 +18,7 @@ the correct caf version for you.
 To initialize your local repository using the SlimLP trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b lp5.1
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b mm6.0
 
 
 
@@ -58,4 +58,4 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.eu)
+To view the status of your and others patches, visit [SlimRoms Code Review](http://review.slimroms.org)
