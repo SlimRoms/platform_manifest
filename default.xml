@@ -533,4 +533,7 @@
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0-staging" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0-staging" />
 
+  <!-- qcom display-frameworks -->
+  <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0-staging" />
+
 </manifest>
