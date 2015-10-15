@@ -377,7 +377,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
+  <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0-staging" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
@@ -483,7 +483,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0-staging" />
   <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0-staging" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0-staging" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0-staging" />
