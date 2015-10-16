@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a4b7175_d91675f1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 1000043
+      },
+      "writtenOn": "2015-10-16T12:42:22Z",
+      "side": 1,
+      "message": "This should be our repo and not aosp",
+      "range": {
+        "startLine": 495,
+        "startChar": 2,
+        "endLine": 495,
+        "endChar": 73
+      },
+      "revId": "fd1f9286cec07f95a94eb85a16b3b88c5ff2f3b2",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
