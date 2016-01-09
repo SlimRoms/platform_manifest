@@ -407,7 +407,7 @@
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" remote="github" revision="staging/mm6.0" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_appps_Nfc" remote="github" revision="staging/mm6.0" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="staging/mm6.0" />
