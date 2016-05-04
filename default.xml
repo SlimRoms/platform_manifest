@@ -397,7 +397,7 @@
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="mm6.0" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="mm6.0" />
-  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
+  <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" remote="github" revision="mm6.0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="mm6.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
