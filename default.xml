@@ -7,7 +7,7 @@
            fetch="git://github.com/"
            review="https://review.slimroms.org/"/>
 
-  <default revision="refs/tags/android-6.0.1_r52"
+  <default revision="refs/tags/android-6.0.1_r61"
            remote="aosp"
            sync-j="4" />
 
