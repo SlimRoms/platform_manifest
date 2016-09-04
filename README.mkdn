@@ -5,13 +5,13 @@ Welcome to SlimRoms
 Getting Started
 ---------------
 
-To get started with Slim6, you'll need to get familiar with
+To get started with Slim7, you'll need to get familiar with
 [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the Slim6 trees, use this command:
+To initialize your local repository using the Slim7 trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b mm6.0
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b ng7.0
 
 
 
