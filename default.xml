@@ -527,6 +527,12 @@
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="ng7.0" />
 
+  <!-- CAF repos -->
+  <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" remote="github" revision="ng7.0" />
+  <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="ng7.0" />
+  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" remote="github" revision="ng7.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" remote="github" revision="ng7.0" />
+
   <!-- SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="ng7.0" />
 
