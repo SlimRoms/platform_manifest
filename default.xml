@@ -513,6 +513,7 @@
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="ng7.0" />
   <project path="system/nvram" name="platform/system/nvram" />
+  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="ng7.0" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="ng7.0" />
   <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" remote="github" revision="ng7.0" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
