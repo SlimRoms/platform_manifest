@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fab9d9a7_706308b2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 1000131
+      },
+      "writtenOn": "2016-09-08T06:50:33Z",
+      "side": 1,
+      "message": "/ copy pasta",
+      "range": {
+        "startLine": 237,
+        "startChar": 15,
+        "endLine": 237,
+        "endChar": 18
+      },
+      "revId": "71d0736f54f6de625d255dea908b5a7e45358d7f",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
