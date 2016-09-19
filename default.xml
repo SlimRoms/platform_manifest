@@ -372,6 +372,7 @@
   <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" remote="github" revision="ng7.0-caf-8994" />
+  <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="ng7.0" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="ng7.0" />
