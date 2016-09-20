@@ -116,6 +116,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="ng7.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
+  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="ng7.0" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="ng7.0" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
@@ -274,6 +275,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="ng7.0" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
