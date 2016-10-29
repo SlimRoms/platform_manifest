@@ -11,7 +11,7 @@ To get started with Slim7, you'll need to get familiar with
 To initialize your local repository using the Slim7 trees, use this command:
 
 
-	repo init -u git://github.com/SlimRoms/platform_manifest.git -b ng7.0
+	repo init -u git://github.com/SlimRoms/platform_manifest.git -b ng7.1
 
 
 

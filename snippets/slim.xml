@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Aosp Forks -->
+  <project path="art" name="SlimRoms/android_art" />
+  <project path="bionic" name="SlimRoms/android_bionic" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
+  <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
+  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
+  <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools"  />
+  <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
+  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
+  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" />
+  <project path="external/skia" name="SlimRoms/android_external_skia" />
+  <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
+  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
+  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" />
+  <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
+  <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
+  <project path="frameworks/support" name="SlimRoms/frameworks_support" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
+  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
+  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
+  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
+  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
+  <project path="hardware/ril" name="SlimRoms/hardware_ril" />
+  <project path="libcore" name="SlimRoms/android_libcore" />
+  <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" />
+  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" />
+  <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" />
+  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" />
+  <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
+  <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
+  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
+  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
+  <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
+  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
+  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
+  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" />
+  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
+  <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
+  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <project path="system/bt" name="SlimRoms/android_system_bt" />
+  <project path="system/core" name="SlimRoms/android_system_core" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" />
+  <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
+  <project path="system/media" name="SlimRoms/android_system_media" />
+  <project path="system/netd" name="SlimRoms/android_system_netd" />
+  <project path="system/security" name="SlimRoms/android_system_security" />
+  <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
+  <project path="system/vold" name="SlimRoms/android_system_vold" />
+
+  <!-- CodeAurora Additions -->
+  <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" />
+  <project path="external/connectivity" name="SlimRoms/android_external_connectivity" />
+  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" />
+  <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" />
+  <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
+  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" revision="ng7.1-caf" />
+  <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" />
+  <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="ng7.1-caf" />
+  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="ng7.1-caf" />
+  <project path="system/qcom" name="SlimRoms/android_system_qcom" />
+  <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" />
+  <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" />
+  <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
+
+  <!-- Slim Additions -->
+  <project path="external/exfat" name="SlimRoms/android_external_exfat" />
+  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" />
+  <project path="external/fuse" name="SlimRoms/android_external_fuse" />
+  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
+  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
+  <project path="platform_manifest" name="SlimRoms/platform_manifest" />
+  <project path="vendor/slim" name="SlimRoms/vendor_slim" />
+  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
+  <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
+
+</manifest>
