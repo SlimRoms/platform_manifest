@@ -122,6 +122,7 @@
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
+  <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" />
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
