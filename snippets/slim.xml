@@ -51,6 +51,7 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
   <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
+  <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
