@@ -1,2 +1,20 @@
+Make a working directory, From your home folder run this command
+
+$ mkdir -p ~/bin
+$ mkdir -p ~/android/slimbean
+
+Allow the repo to be executed
+
+$ chmod a+x ~/bin/repo
+
+Install the repository
+
+$ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+
+Change directories
+
+$ cd android/slimbean/
+
+Initialize the manifest
+
 $ repo init -u git://github.com/SlimRoms/platform_manifest.git -b jb
-$ repo sync
