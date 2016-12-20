@@ -25,25 +25,26 @@ Submitting Patches
 ------------------
 
 We're open source, and patches are always welcome!
+To do this, you will need an account setup with our gerrit server and a changeid hooks.
+To add changeid hook, use the following commands:
+
+cd <project>
+scp -p -P 29418 <username>@review.slimroms.org:hooks/commit-msg .git/hooks/
+
 You can send patches by using these commands:
 
-    cd <workspace>
-    repo start <branch> SlimRoms/<project>
     cd <project>
-    git add -A
-    git commit -a
+    git add .
+    git commit
     cd <workspace>
-    repo upload SlimRoms/<project>
+    repo upload SlimRoms/<project>  OR
+    git push ssh://<username>@review.slimroms.org:29418/SlimRoms/<project> HEAD:refs/for/<branch>
 
-Commit your patches in a single commit.
-
-Squash multiple commit using this command:
-
-	git rebase -i HEAD~<# of commits>
-
+This will commit your changes into a single commit.
+Make sure your git has the changeid hooks added.
 If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
 
-	git commit -a
+	git commit
 
 use
 
