@@ -5,9 +5,12 @@
   <project path="art" name="SlimRoms/android_art" />
   <project path="bionic" name="SlimRoms/android_bionic" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
+  <project path="external/aac" name="SlimRoms/android_external_aac" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
+  <project path="external/flac" name="SlimRoms/android_external_flac" />
+  <project path="external/icu" name="SlimRoms/android_external_icu" />
   <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools"  />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
@@ -15,6 +18,7 @@
   <project path="external/skia" name="SlimRoms/android_external_skia" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
+  <project path="external/tinyxml2" name="SlimRoms/android_external_tinyxml2" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
