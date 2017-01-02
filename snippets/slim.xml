@@ -120,6 +120,7 @@
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
 
   <!-- Slim Additions -->
+  <project path="external/busybox" name="SlimRoms/android_external_busybox" />
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
