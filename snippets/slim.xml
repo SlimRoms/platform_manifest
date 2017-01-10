@@ -133,4 +133,7 @@
   <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
+  <!-- OMS Additions -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+
 </manifest>
