@@ -135,4 +135,8 @@
   <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
+  <!-- Switch to the master branch Google GCC 4.9 -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="aosp" revision="master" groups="pdk,linux,arm" />
+
 </manifest>
