@@ -115,6 +115,7 @@
   <project path="system/qcom" name="SlimRoms/android_system_qcom" />
   <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" />
   <project path="vendor/qcom/opensource/bluetooth" name="SlimRoms/vendor_qcom_opensource_bluetooth" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
