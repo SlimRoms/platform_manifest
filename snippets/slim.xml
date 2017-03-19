@@ -27,7 +27,6 @@
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" />
-  <project path="frameworks/theme-core" name="SlimRoms/frameworks_theme-core" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
@@ -59,7 +58,6 @@
   <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
   <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
-  <project path="packages/apps/ThemeManager" name="SlimRoms/packages_apps_ThemeManager" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" />
@@ -67,7 +65,6 @@
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
-  <project path="packages/services/OmsBackend" name="SlimRoms/packages_services_OmsBackend" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
