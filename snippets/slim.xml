@@ -132,7 +132,7 @@
   <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" />
-  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
+  <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
 </manifest>
