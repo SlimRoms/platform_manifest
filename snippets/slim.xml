@@ -23,7 +23,7 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
-  <project path="frameworks/opt/color-picker" name="SlimRoms/framworks_opt_color-picker" />
+  <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
