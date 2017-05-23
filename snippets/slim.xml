@@ -30,6 +30,14 @@
   <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
+  <project path="hardware/intel/common/libmix" name="SlimRoms/hardware_intel_common_libmix" />
+  <project path="hardware/intel/common/libva" name="SlimRoms/hardware_intel_common_libva" />
+  <project path="hardware/intel/common/libwsbm" name="SlimRoms/hardware_intel_common_libwsbm" />
+  <project path="hardware/intel/common/omx-components" name="SlimRoms/hardware_intel_common_omx-components" />
+  <project path="hardware/intel/common/utils" name="SlimRoms/hardware_intel_common_utils" />
+  <project path="hardware/intel/img/hwcomposer" name="SlimRoms/hardware_intel_img_hwcomposer" />
+  <project path="hardware/intel/img/psb_headers" name="SlimRoms/hardware_intel_img_psb_headers" />
+  <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
