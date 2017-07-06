@@ -62,6 +62,7 @@
   <project path="packages/apps/FMRadio" name="SlimRoms/packages_apps_FMRadio" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
+  <project path="packages/apps/MusicFX" name="platform/packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
   <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
