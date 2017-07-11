@@ -106,6 +106,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="ng7.1-caf-8998" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" revision="ng7.1-caf" />
   <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8937" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8937" />
@@ -114,6 +115,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="ng7.1-caf-8998" />
   <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" />
   <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8937" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8937" />
@@ -122,6 +124,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="ng7.1-caf-8998" />
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="ng7.1-caf" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="ng7.1-caf" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" />
