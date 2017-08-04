@@ -95,6 +95,7 @@
   <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" />
   <project path="external/connectivity" name="SlimRoms/android_external_connectivity" />
+  <project path="external/json-c" name="SlimRoms/android_external_json-c" />
   <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
