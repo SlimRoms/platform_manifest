@@ -7,7 +7,7 @@
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
 
-  <!-- Qcom hw repos -->
+  <!-- Codeaurora Additions -->
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8994" />
