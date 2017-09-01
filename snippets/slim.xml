@@ -6,6 +6,7 @@
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
 
   <!-- Codeaurora Additions -->
   <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8960" />
