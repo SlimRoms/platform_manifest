@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
