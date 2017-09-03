@@ -3,6 +3,7 @@
 
   <!-- Aosp Forks -->
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
@@ -10,6 +11,7 @@
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
+  <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/media" name="SlimRoms/android_system_media" />
 
   <!-- Codeaurora Additions -->
