@@ -5,6 +5,7 @@
   <project path="art" name="SlimRoms/android_art" />
   <project path="bionic" name="SlimRoms/android_bionic" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
+  <project path="build/kati" name="Slimroms/android_build_kati" />
   <project path="external/aac" name="SlimRoms/android_external_aac" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
