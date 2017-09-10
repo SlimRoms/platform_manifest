@@ -7,6 +7,7 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="hardware/interfaces" name="SlimRoms/hardware_interfaces" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
