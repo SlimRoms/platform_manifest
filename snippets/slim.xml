@@ -7,6 +7,7 @@
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
   <project path="build/kati" name="SlimRoms/android_build_kati" />
   <project path="external/aac" name="SlimRoms/android_external_aac" />
+  <project path="external/libavc" name="SlimRoms/android_external_libavc" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
@@ -15,14 +16,19 @@
   <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools"  />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
+  <project path="external/libhevc" name="SlimRoms/android_external_libhevc" />
   <project path="external/okhttp" name="SlimRoms/android_external_okhttp" />
   <project path="external/skia" name="SlimRoms/android_external_skia" />
+  <project path="external/sonivox" name="SlimRoms/android_external_sonivox" />
+  <project path="external/sqlite" name="SlimRoms/android_external_sqlite" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="external/tinyxml2" name="SlimRoms/android_external_tinyxml2" />
+  <project path="external/tremolo" name="SlimRoms/android_external_tremolo" />
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
   <project path="frameworks/opt/net/ims" name="SlimRoms/frameworks_opt_net_ims" />
