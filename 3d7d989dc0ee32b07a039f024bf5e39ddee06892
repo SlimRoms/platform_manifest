@@ -16,6 +16,24 @@
       "revId": "3d7d989dc0ee32b07a039f024bf5e39ddee06892",
       "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "26d9f2ef_b3c6d968",
+        "filename": "snippets/slim.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000017
+      },
+      "writtenOn": "2017-09-24T17:50:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77945df3_f50b392d",
+      "revId": "3d7d989dc0ee32b07a039f024bf5e39ddee06892",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
     }
   ]
 }
