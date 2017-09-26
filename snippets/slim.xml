@@ -14,6 +14,7 @@
   <project path="system/media" name="SlimRoms/android_system_media" />
 
   <!-- Codeaurora Additions -->
+  <project path="external/libnetfilter_conntrack" name="SlimRoms/android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
   <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
