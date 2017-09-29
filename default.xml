@@ -330,7 +330,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -521,7 +520,6 @@
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="aosp" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
