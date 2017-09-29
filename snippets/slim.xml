@@ -2,6 +2,10 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="build/soong" name="SlimRoms/android_build_soong" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="external/selinux" name="SlimRoms/android_external_selinux" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
