@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="bionic" name="SlimRoms/android_bionic" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
   <project path="build/soong" name="SlimRoms/android_build_soong" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -12,6 +14,8 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
   <project path="hardware/interfaces" name="SlimRoms/hardware_interfaces" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
@@ -25,9 +29,12 @@
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" />
   <project path="system/media" name="SlimRoms/android_system_media" />
+  <project path="system/netd" name="SlimRoms/android_system_netd" />
   <project path="system/nfc" name="SlimRoms/android_system_nfc" />
   <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
+  <project path="system/vold" name="SlimRoms/android_system_vold" />
 
   <!-- Codeaurora Additions -->
   <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" />
@@ -68,6 +75,9 @@
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
 
   <!-- Slim Additions -->
+  <project path="external/exfat" name="SlimRoms/android_external_exfat" />
+  <project path="external/fuse" name="SlimRoms/android_external_fuse" />
+  <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" />
