@@ -79,6 +79,9 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
+  <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
+    <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
+  </project>
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" />
 
