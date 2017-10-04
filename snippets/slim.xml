@@ -26,7 +26,24 @@
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" />
+  <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" />
+  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" />
+  <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" />
+  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
+  <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
+  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
+  <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
+  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
+  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" />
+  <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
+  <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
+  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
@@ -75,10 +92,11 @@
   <project path="vendor/qcom/opensource/time-services" name="SlimRoms/vendor_qcom_opensource_time-services" />
 
   <!-- Slim Additions -->
+  <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
-  <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
+  <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
     <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
   </project>
