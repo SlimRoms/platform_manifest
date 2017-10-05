@@ -96,6 +96,7 @@
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
+  <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
