@@ -99,6 +99,8 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
+  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
+  <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
   <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
     <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
