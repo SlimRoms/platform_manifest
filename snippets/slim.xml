@@ -14,6 +14,7 @@
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
   <project path="hardware/interfaces" name="SlimRoms/hardware_interfaces" />
