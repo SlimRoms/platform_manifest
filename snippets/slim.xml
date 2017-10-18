@@ -9,11 +9,13 @@
   <project path="external/aac" name="SlimRoms/android_external_aac" />
   <project path="external/libavc" name="SlimRoms/android_external_libavc" />
   <project path="external/apache-http" name="SlimRoms/android_external_apache-http" />
+  <project path="external/dnsmasq" name="SlimRoms/android_external_dnsmasq" />
   <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" />
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
   <project path="external/flac" name="SlimRoms/android_external_flac" />
   <project path="external/icu" name="SlimRoms/android_external_icu" />
   <project path="external/ipsec-tools" name="SlimRoms/android_external_ipsec-tools"  />
+  <project path="external/libmpeg2" name="SlimRoms/android_external_libmpeg2" />
   <project path="external/libnfc-nci" name="SlimRoms/android_external_libnfc-nci" />
   <project path="external/libnfc-nxp" name="SlimRoms/android_external_libnfc-nxp" />
   <project path="external/libhevc" name="SlimRoms/android_external_libhevc" />
@@ -72,6 +74,7 @@
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
   <project path="packages/apps/MusicFX" name="SlimRoms/packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
+  <project path="packages/apps/PackageInstaller" name="SlimRoms/packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
   <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" />
   <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
