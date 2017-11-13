@@ -50,7 +50,7 @@
   <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
-  <project path="system/hwservicemanager" name="SlimRoms/android_system_hwservicemanager />
+  <project path="system/hwservicemanager" name="SlimRoms/android_system_hwservicemanager" />
   <project path="system/media" name="SlimRoms/android_system_media" />
   <project path="system/netd" name="SlimRoms/android_system_netd" />
   <project path="system/nfc" name="SlimRoms/android_system_nfc" />
