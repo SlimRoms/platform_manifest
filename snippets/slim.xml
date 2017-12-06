@@ -67,27 +67,27 @@
   <project path="external/libnfnetlink" name="SlimRoms/android_external_libnfnetlink" />
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
   <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="or8.0-caf-8998" />
-  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" revision="or8.0-caf" />
-  <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="or8.0-caf-8998" />
-  <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="or8.0-caf-8998" />
-  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="or8.0-caf" />
-  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="or8.0-caf" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="or8.1-caf-8998" />
+  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" revision="or8.1-caf" />
+  <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="or8.1-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8998" />
+  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="or8.1-caf" />
+  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="or8.1-caf" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
