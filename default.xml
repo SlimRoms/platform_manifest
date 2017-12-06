@@ -35,7 +35,7 @@
   <project path="developers/build" name="platform/developers/build" remote="aosp" groups="developers" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" groups="developers" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" remote="aosp" groups="developers" />
+  <project path="development" name="platform/development" remote="aosp" groups="developers" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" />
