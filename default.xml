@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.2_r29" />
+           revision="refs/tags/android-7.1.2_r36" />
 
   <default revision="refs/heads/ng7.1"
            remote="github"
@@ -146,7 +146,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="nougat-mr2-release" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -169,7 +169,6 @@
   <project path="external/libdaemon" name="platform/external/libdaemon" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libgdx" name="platform/external/libgdx" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
