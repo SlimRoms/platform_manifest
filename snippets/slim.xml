@@ -22,6 +22,7 @@
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
   <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" />
