@@ -31,6 +31,7 @@
   <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/ex" name="SlimRoms/frameworks_ex"  />
   <project path="frameworks/minikin" name="SlimRoms/frameworks_minikin" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="frameworks/opt/color-picker" name="SlimRoms/frameworks_opt_color-picker" />
