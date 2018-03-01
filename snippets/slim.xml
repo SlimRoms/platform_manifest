@@ -9,6 +9,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/kati" name="SlimRoms/android_build_kati" />
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
   <project path="external/selinux" name="SlimRoms/android_external_selinux" />
   <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" />
