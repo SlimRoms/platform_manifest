@@ -50,6 +50,7 @@
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
+  <project path="prebuilts/misc" name="SlimRoms/android_prebuilts_misc" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
