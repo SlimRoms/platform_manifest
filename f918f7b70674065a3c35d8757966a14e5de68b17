@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be5e60d1_dd5e44e5",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 1000131
+      },
+      "writtenOn": "2018-04-28T14:05:59Z",
+      "side": 1,
+      "message": "got some waste here",
+      "revId": "f918f7b70674065a3c35d8757966a14e5de68b17",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "47d3e353_8742685a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 1000131
+      },
+      "writtenOn": "2018-04-28T14:05:59Z",
+      "side": 1,
+      "message": "already there",
+      "revId": "f918f7b70674065a3c35d8757966a14e5de68b17",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "13d2c5f3_05d5a687",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 546,
+      "author": {
+        "id": 1000131
+      },
+      "writtenOn": "2018-04-28T14:05:59Z",
+      "side": 1,
+      "message": "dupe ending :-)",
+      "revId": "f918f7b70674065a3c35d8757966a14e5de68b17",
+      "serverId": "f8201d64-d729-4630-b91d-5f8be02869f0",
+      "unresolved": false
+    }
+  ]
+}
