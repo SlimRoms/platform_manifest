@@ -539,8 +539,3 @@
  <include name="snippets/slim.xml" />
 
 </manifest>
-rm/tools/repohooks" enabled-list="pre-upload" remote="aosp" />
-
- <include name="snippets/slim.xml" />
-
-</manifest>
