@@ -94,6 +94,7 @@
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="or8.1-caf-8998" />
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="or8.1-caf" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="or8.1-caf" />
+  <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dpm" name="SlimRoms/vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
