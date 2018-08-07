@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Aosp Forks -->
+  <project path="system/core" name="SlimRoms/android_system_core" />
+
+  <!-- Slim Additions -->
+  <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
+  <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
+  <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
+    <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
+  </project>
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
+  <project path="platform_manifest" name="SlimRoms/platform_manifest" />
+  <project path="vendor/slim" name="SlimRoms/vendor_slim" />
+
+</manifest>
