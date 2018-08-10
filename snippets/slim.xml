@@ -2,7 +2,61 @@
 <manifest>
 
   <!-- Aosp Forks -->
+  <project path="build/make" name="SlimRoms/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="bionic" name="SlimRoms/android_bionic" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" />
+  <project path="build/kati" name="SlimRoms/android_build_kati" />
+  <project path="build/soong" name="SlimRoms/android_build_soong" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
+  <project path="external/selinux" name="SlimRoms/android_external_selinux" />
+  <project path="external/tinycompress" name="SlimRoms/android_external_tinycompress" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" />
+  <project path="frameworks/base" name="SlimRoms/frameworks_base" />
+  <project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
+  <project path="frameworks/support" name="SlimRoms/frameworks_support" />
+  <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
+  <project path="hardware/interfaces" name="SlimRoms/hardware_interfaces" />
+  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" />
+  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" />
+  <project path="hardware/qcom/bootctrl" name="SlimRoms/hardware_qcom_bootctrl" />
+  <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" />
+  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" />
+  <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
+  <project path="hardware/ril" name="SlimRoms/hardware_ril" />
+  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
+  <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
+  <project path="system/extras" name="SlimRoms/android_system_extras" />
+  <project path="system/hwservicemanager" name="SlimRoms/android_system_hwservicemanager" />
+  <project path="system/libhidl" name="SlimRoms/android_system_libhidl" />
+  <project path="system/media" name="SlimRoms/android_system_media" />
+  <project path="system/netd" name="SlimRoms/android_system_netd" />
+  <project path="system/nfc" name="SlimRoms/android_system_nfc" />
+  <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
+  <project path="system/vold" name="SlimRoms/android_system_vold" />
+
+  <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8998" />
 
   <!-- Slim Additions -->
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
