@@ -54,9 +54,14 @@
   <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
   <project path="system/vold" name="SlimRoms/android_system_vold" />
 
+  <!-- Codeaurora Additions -->
+  <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
   <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8998" />
   <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8998" />
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8998" />
+  <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
 
   <!-- Slim Additions -->
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
