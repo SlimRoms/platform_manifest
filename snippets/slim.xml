@@ -55,10 +55,42 @@
   <project path="system/vold" name="SlimRoms/android_system_vold" />
 
   <!-- Codeaurora Additions -->
+
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
+
+  <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="SlimRoms/android_external_ant-wireless_antradio-library" />
+  <project path="external/connectivity" name="SlimRoms/android_external_connectivity" />
+  <project path="external/json-c" name="SlimRoms/android_external_json-c" />
+
+  <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" revision="9.0-caf" />
+  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" revision="9.0-caf" />
+  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" revision="9.0-caf" />
+
+  <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="SlimRoms/hardware_qcom_audio" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8916" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="SlimRoms/hardware_qcom_display" revision="9.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8998" />
+
+  <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
