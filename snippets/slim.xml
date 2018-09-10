@@ -93,16 +93,12 @@
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8998" />
 
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
-  <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" >
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
+  <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" />
 
   <!-- Slim Additions -->
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
   <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
-  <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" >
-    <copyfile dest="hardware/slim/Android.bp" src="Android.bp"/>
-  </project>
+  <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" />
   <project path="platform_manifest" name="SlimRoms/platform_manifest" />
   <project path="vendor/slim" name="SlimRoms/vendor_slim" />
