@@ -44,6 +44,7 @@
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
+  <project path="prebuilts/build-tools" name="SlimRoms/android_prebuilts_build-tools" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
   <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
