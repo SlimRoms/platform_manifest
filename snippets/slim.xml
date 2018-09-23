@@ -59,6 +59,7 @@
   <!-- Codeaurora Additions -->
 
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
+  <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
 
   <project path="external/ant-wireless/ant_native" name="SlimRoms/android_external_ant-wireless_ant_native" />
   <project path="external/ant-wireless/ant_service" name="SlimRoms/android_external_ant-wireless_ant_service" />
