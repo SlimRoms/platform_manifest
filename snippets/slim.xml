@@ -98,6 +98,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" />
 
   <!-- Slim Additions -->
+  <project path="external/exfat" name="SlimRoms/android_external_exfat" />
   <project path="device/slim/sepolicy" name="SlimRoms/device_slim_sepolicy" />
   <project path="frameworks/slim" name="SlimRoms/frameworks_slim" />
   <project path="hardware/slim/interfaces" name="SlimRoms/hardware_slim_interfaces" />
