@@ -95,8 +95,19 @@
   <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="SlimRoms/hardware_qcom_media" revision="9.0-caf-8998" />
 
+  <project path="vendor/codeaurora/telephony" name="SlimRoms/vendor_codeaurora_telephony" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="SlimRoms/vendor_nxp_interfaces_opensource_nfc" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="SlimRoms/vendor_nxp_opensource_external_libnfc-nci" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="SlimRoms/vendor_nxp_opensource_frameworks" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="SlimRoms/vendor_nxp_opensource_packages_apps_Nfc" />
+  <project path="vendor/nxp/opensource/halimpl" name="SlimRoms/vendor_nxp_opensource_halimpl" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="SlimRoms/vendor_nxp_opensource_hidlimpl" />
+  <project path="vendor/qcom/opensource/audio" name="SlimRoms/vendor_qcom_opensource_audio" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="SlimRoms/vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="SlimRoms/vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="SlimRoms/vendor_qcom_opensource_interfaces" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="SlimRoms/vendor_qcom_opensource_thermal-engine" />
 
   <!-- Slim Additions -->
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
