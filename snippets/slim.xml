@@ -27,6 +27,7 @@
   <project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/native" name="SlimRoms/frameworks_native" />
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" />
   <project path="frameworks/support" name="SlimRoms/frameworks_support" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" />
   <project path="hardware/broadcom/wlan" name="SlimRoms/hardware_broadcom_wlan" />
