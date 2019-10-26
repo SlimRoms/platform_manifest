@@ -15,7 +15,7 @@
 
   <!-- SLIM -->
   <project path="platform_manifest" name="platform_manifest" remote="slim" />
-  <project path="build/make" name="build" remote="slim" >
+  <project path="build/make" name="android_build" remote="slim" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,7 +24,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="slim" >
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="slim" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -38,8 +38,8 @@
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="slim" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="slim" />
 
-  <project path="art" name="art" groups="pdk" remote="slim" />
-  <project path="bionic" name="bionic" remote="slim" />
+  <project path="art" name="android_art" groups="pdk" remote="slim" />
+  <project path="bionic" name="android_bionic" remote="slim" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" />
   <project path="device/slim/sepolicy" name="device_slim_sepolicy" remote="slim" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="slim" />
