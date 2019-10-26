@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms" />
+
+  <default revision="10.0"
+           remote="slim"
+           sync-f="true"
+           sync-c="true"
+           sync-j="8" />
+
+  <!-- SLIM -->
+  <project path="platform_manifest" name="platform_manifest" remote="slim" />
+  <project path="build/make" name="build" remote="slim" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="slim" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="slim" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk-qcom" remote="slim" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="slim" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="slim" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="slim" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="slim" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="slim" />
+
+  <project path="art" name="art" groups="pdk" remote="slim" />
+  <project path="bionic" name="bionic" remote="slim" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" />
+  <project path="device/slim/sepolicy" name="device_slim_sepolicy" remote="slim" />
+  <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="slim" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="slim" />
+  <project path="external/json-c" name="android_external_json-c" remote="slim" />
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="slim" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="slim" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="slim" />
+  <project path="frameworks/base" name="frameworks_base" remote="slim" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="slim" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="slim" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="slim" />
+  <project path="hardware/slim/interfaces" name="hardware_slim_interfaces" remote="slim" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="slim" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="slim" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="slim" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="slim" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="slim" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="slim" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="slim" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="slim" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="slim" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="slim" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="slim" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slim" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="slim" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="slim" />
+  <project path="system/bt" name="android_system_bt" remote="slim" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="slim" />
+  <project path="vendor/slim" name="vendor_slim" remote="slim" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-slim" name="prebuilts_tools-slim" remote="slim" clone-depth="1" />
+  <project path="prebuilts/openssl" name="prebuilts_openssl" remote="slim" clone-depth="1" />
+
+</manifest>
+

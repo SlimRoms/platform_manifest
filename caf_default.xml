@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="slim" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" /> -->
+  </project>
+
+  <!-- HardWare QCOM -->
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" remote="slim" revision="10.0-caf-845" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="hardware_qcom_audio" remote="slim" revision="10.0-caf-8994" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="slim" revision="10.0-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" remote="slim" revision="10.0-caf-8998" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" remote="slim" revision="10.0-caf-845" />
+  <project path="hardware/qcom-caf/msm8994/display" name="hardware_qcom_display" remote="slim" revision="10.0-caf-8994" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="slim" revision="10.0-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" remote="slim" revision="10.0-caf-8998" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" remote="slim" revision="10.0-caf-845" />
+  <project path="hardware/qcom-caf/msm8994/media" name="hardware_qcom_media" remote="slim" revision="10.0-caf-8994" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="slim" revision="10.0-caf-8996" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" remote="slim" revision="10.0-caf-8998" />
+
+  <!-- bt -->
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="slim" />
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom" remote="slim" revision="10.0-caf" />
+
+  <!-- Device -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="slim" revision="10.0-legacy-um" />
+
+  <!-- Ril -->
+  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="slim" revision="10.0-caf" />
+
+  <!-- Wlan -->
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="slim" revision="10.0-caf" />
+
+  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" groups="qcom,pdk-qcom" remote="slim" />
+
+  <!-- Vendors -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="slim" revision="10.0" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="slim" revision="10.0" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="slim" revision="10.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="slim" revision="10.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="slim" revision="10.0" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="slim" revision="10.0" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="slim" revision="10.0" />
+
+</manifest>
+
