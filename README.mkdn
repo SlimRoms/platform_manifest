@@ -11,7 +11,7 @@ To get started with Slim8, you'll need to get familiar with
 To initialize your local repository using the Slim7 trees, use this command:
 
 
-repo init -u git://github.com//Syn7ax3rror/platform_manifest.git -b or8.1	
+repo init -u git://github.com/Syn7ax3rror/platform_manifest.git -b or8.1	
 
 
 
